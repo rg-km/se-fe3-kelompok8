@@ -1,16 +1,24 @@
 <html>
     <head>
+        <link rel="stylesheet" href="style.css">
     </head>
         <script type="text/javascript" src="answer.js"></script>
     <body onload="draw();">
-        <h1>Snake</h1>
-        <!-- Soal no 3: Tambahkan resource gambar untuk ditampilkan di canvas -->
-        <img id="apple" style="display: none;" width="20" height="20" src="apple.png" alt="Apple">
-        <!-- Soal no 1: Ubah nilai width dan height menjadi 600 pada element canvas:  -->
-        <canvas id="snakeBoard" width="600" height="600" style="border:1px solid #000000;"></canvas>
-        <canvas id="score1Board" width="100" height="100" style="border:1px solid #000000;"></canvas>
-        <canvas id="score2Board" width="100" height="100" style="border:1px solid #000000;"></canvas>
-        <!-- Soal no 6: Tambahkan elemen canvas untuk menampilkan player3:  -->
-        <canvas id="score3Board" width="100" height="100" style="border:1px solid #000000;"></canvas>
+        <div class="header">
+            <h1>SNAKE GAME</h1>
+        </div>
+        <div class="container">
+            <!-- Soal no 3: Tambahkan resource gambar untuk ditampilkan di canvas -->
+            <img id="apple" style="display: none;" width="20" height="20" src="assets/apple.png" alt="Apple">
+            <!-- Soal no 1: Ubah nilai width dan height menjadi 600 pada element canvas:  -->
+            <canvas id="snakeBoard" width="600" height="600" style="border:3px solid #d2691e;"></canvas>
+            <canvas id="score1Board" width="100" height="100" style="border:3px solid #d2691e;"></canvas>
+            <canvas id="score2Board" width="100" height="100" style="border:3px solid #d2691e;"></canvas>
+            <!-- Soal no 6: Tambahkan elemen canvas untuk menampilkan player3:  -->
+            <canvas id="score3Board" width="100" height="100" style="border:3px solid #d2691e;"></canvas>
+        </div>
+        <div class="rumput">
+            <img id="ular" width="300" height="300" style="margin-right: auto;" src="assets/snake.png" alt="Ular">
+        </div>
     </body>
 </html>
