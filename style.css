@@ -1,0 +1,25 @@
+body {
+    background-color: #d2691e;
+    color: lime;
+}
+
+.header {
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+
+.container {
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    background-color: #deb887;
+    padding: 10px;
+}
+
+.rumput {
+    height: 280px;
+    width: 1670px;
+    background-image: url(assets/rumput.png);
+    padding-inline: 20px;
+}
